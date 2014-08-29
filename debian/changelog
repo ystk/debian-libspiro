@@ -1,3 +1,91 @@
+libspiro (20071029-10) unstable; urgency=medium
+
+  * debian/control
+    - add Vcs-* field 
+
+ -- Hideki Yamane <henrich@debian.org>  Sun, 06 Apr 2014 17:23:44 +0900
+
+libspiro (20071029-9) unstable; urgency=medium
+
+  * debian/control
+    - add dh-autoreconf
+    - set Standards-Version: 3.9.5
+  * debian/rules
+    - use dh_autoreconf
+    - exec aclocal to prevent version mismatch with aclocal.m4
+  * debian/patches
+    - add specify_SHELL.patch to avoid FTBFS
+
+ -- Hideki Yamane <henrich@debian.org>  Tue, 07 Jan 2014 11:59:36 +0900
+
+libspiro (20071029-8) unstable; urgency=low
+
+  * Team Upload.
+  * Use dpkg-gensymbols to generate symbols file instead of
+    pkg-kde-tools.
+  * Drop --with=kde option it works only with CMake and KDE
+    packages. Closes: bug#722991. Thanks to Christian Marillat.
+
+ -- Vasudev Kamath <kamathvasudev@gmail.com>  Mon, 16 Sep 2013 21:52:18 +0530
+
+libspiro (20071029-7) unstable; urgency=low
+
+  [ Vasudev Kamath ]
+  * Team Upload.
+  * Marked the packages multi-arch same, and added pre-depends on
+    multiarch-support. Thanks to Christian Marillat.
+    Closes: bug#721401
+  * Description field is fixed by removing extra space and article "a" in
+    the beginning.
+  * Install symlink to libspiro.so as part of libspiro-dev package.
+  * Symbols file is introduced using pkg-kde-tools, appropriate change is
+    done to rules to kde addon with dh and build-depends on pkg-kde-tools
+    is added.
+  * Converted copyright file to copyright-format 1.0.
+
+  [ Christian Perrier ]
+  * Rewrite package descriptions to fit the debian-l10n-english
+    standardized writing style.
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 10 Sep 2013 07:09:06 +0200
+
+libspiro (20071029-6) unstable; urgency=low
+
+  * debian/control
+    - improve description, fix "description-synopsis-starts-with-article"
+    - fix section as debug 
+    - remove duplicate priority: tag
+  * add debian/source/format, "3.0 (quilt)"
+
+ -- Hideki Yamane <henrich@debian.org>  Tue, 18 Jun 2013 03:51:43 +0900
+
+libspiro (20071029-5) unstable; urgency=low
+
+  * upload to unstable 
+
+ -- Hideki Yamane <henrich@debian.org>  Fri, 03 May 2013 10:29:14 +0900
+
+libspiro (20071029-4) experimental; urgency=low
+
+  * debian/libspiro.postrm.debhelper: remove it
+  * debian/libspiro0.postrm: add it
+
+ -- Hideki Yamane <henrich@debian.org>  Tue, 09 Apr 2013 10:55:14 +0900
+
+libspiro (20071029-3) experimental; urgency=low
+
+  * New maintainer (Closes: #700413)
+  * debian/control, rules
+    - set Standards-Version: 3.9.4
+    - switch cdbs to dh
+    - enable hardening
+  * debian/compat: set 9
+  * debian/libspiro0.install,libspiro-dev
+    - deal with Multi-Arch
+    - don't install *.la files
+
+ -- Hideki Yamane <henrich@debian.org>  Thu, 28 Mar 2013 08:48:04 +0900
+
 libspiro (20071029-2) unstable; urgency=low
 
   * New maintainer (Closes: #466246).

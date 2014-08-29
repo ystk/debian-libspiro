@@ -1,35 +1,33 @@
-This package was debianized by Ruben Molina <rmolina@udea.edu.co> on
-Sun, 01 Jun 2008 17:39:06 -0500.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libspiro
+Upstream-Contact: Raph Levien <raph.levien@gmail.com>
+ George Williams <gww@silcom.com>
+Source: http://sourceforge.net/projects/libspiro/
 
-It was downloaded from http://sourceforge.net/projects/libspiro/
+Files: *
+Copyright: (c) 2007, Raph Levien <raph.levien@gmail.com>
+License: GPL-2+
 
-Upstream Authors: 
+Files: debian/
+Copyright: (c) 2007-2013, Ruben Molina <rmolina@udea.edu.co>
+ (c) 2013, Hideki Yamane <henrich@debian.org>
+License: GPL-2+
 
-    Raph Levien <raph.levien@gmail.com>
-    George Williams <gww@silcom.com>
-
-Copyright: 
-
-    Copyright (C) 2007 Raph Levien
-
-License:
-
-    This package is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
- 
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
- 
-    You should have received a copy of the GNU General Public License
-    along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
-
-The Debian packaging is (C) 2008, Ruben Molina <rmolina@udea.edu.co> and
-is licensed under the GPL, see above.
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ Comment:
+ .
+ On Debian systems the 'GNU General Public License' version 2 is located
+ in '/usr/share/common-licenses/GPL-2'.
+ .
+ You should have received a copy of the 'GNU General Public License'
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.

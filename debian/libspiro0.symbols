@@ -1,0 +1,17 @@
+libspiro.so.0 libspiro0 #MINVER#
+ SpiroCPsToBezier@Base 20071029
+ TaggedSpiroCPsToBezier@Base 20071029
+ bezctx_curveto@Base 20071029
+ bezctx_lineto@Base 20071029
+ bezctx_mark_knot@Base 20071029
+ bezctx_moveto@Base 20071029
+ bezctx_quadto@Base 20071029
+ compute_jinc@Base 20071029
+ count_vec@Base 20071029
+ free_spiro@Base 20071029
+ get_knot_th@Base 20071029
+ integrate_spiro@Base 20071029
+ n@Base 20071029
+ run_spiro@Base 20071029
+ solve_spiro@Base 20071029
+ spiro_to_bpath@Base 20071029
